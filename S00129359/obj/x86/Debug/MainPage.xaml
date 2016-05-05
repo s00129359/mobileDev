@@ -1,0 +1,46 @@
+﻿<Page
+    x:Class="S00129359.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:S00129359"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FFB2B5F1">
+        <Grid Margin="10,0,10,572">
+            <HyperlinkButton Content="Edit" HorizontalAlignment="Right" Width="190" Margin="0,-4,0,10" Background="#FF21F000" Height="62"/>
+            <HyperlinkButton Content="View" HorizontalAlignment="Left" Width="190" Margin="0,-4,0,10" Background="#FF296B99" Height="62"/>
+        </Grid>
+
+        <Grid Margin="0,78,0,0">
+            <TextBlock Name="tbFirstName" FontSize="30" Margin="10,17,0,509" VerticalAlignment="Center">First Name:</TextBlock>
+            <TextBlock Name="tbSecondName" FontSize="30" Margin="10,58,0,468" VerticalAlignment="Center">
+            	<Run Text="Second Name:"/>
+            </TextBlock>
+            <TextBlock Name="tbAddress" FontSize="30" Margin="10,93,0,433" VerticalAlignment="Center">
+            	<Run Text="Address:"/>
+            </TextBlock>
+            <TextBlock Name="tbCounty" FontSize="30" Margin="10,128,0,398" VerticalAlignment="Center">
+            	<Run Text="County:"/>
+            </TextBlock>
+            <TextBlock Name="tbMobile" FontSize="30" Margin="10,163,0,363" VerticalAlignment="Center">
+            	<Run Text="Mobile:"/>
+            </TextBlock>
+            <TextBlock Name="tbEmail" FontSize="30" Margin="10,198,0,296" VerticalAlignment="Center" Height="68">
+            	<Run Text="Email:"/>
+            </TextBlock>
+            <TextBlock Name="tbLandLine" FontSize="30" Margin="10,271,10,255" VerticalAlignment="Center">
+            	<Run Text="Landline:"/>
+            </TextBlock>
+            <TextBlock FontSize="30" Margin="97,311,56,215" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black" FontWeight="Bold" FontStyle="Italic" Width="247">
+            	<Run Text="Your Reports:"/>
+            </TextBlock>
+            <ListBox Name="lsbReports" Margin="10,425,10,9"></ListBox>
+
+        </Grid>
+
+    </Grid>
+</Page>
+

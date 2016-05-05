@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="S00129359.EditRoute"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:S00129359"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FFF1DFAC">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="6*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <HyperlinkButton x:ConnectionId='1' Grid.Column="1" Grid.Row="0" HorizontalAlignment="Stretch" Background="#FFEE6969"                                >Return</HyperlinkButton>
+
+        <TextBlock Name="tbRoute" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontSize="25" Foreground="Black" Margin="122.667,10.333,118.667,10.5">Route</TextBlock>
+        <TextBlock Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Foreground="Black" FontStyle="Italic">Choose a route to edit</TextBlock>
+        <ListBox x:ConnectionId='2' Name="lstJourneys" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Margin="1.667,30.5,32,60.667" Grid.RowSpan="3"                                                ></ListBox>
+        <HyperlinkButton x:ConnectionId='3' Name="btnEdit" IsEnabled="False" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Stretch" Background="#FF5D7ED1"                      >Edit Journey</HyperlinkButton>
+
+        <HyperlinkButton x:ConnectionId='4' Grid.Row="6" Grid.Column="1" HorizontalAlignment="Stretch" Background="#FF309512"                              >Add New Journey</HyperlinkButton>
+        <HyperlinkButton x:ConnectionId='5' Grid.Row="7" Grid.Column="1" HorizontalAlignment="Stretch" Background="#FFBD0F0F"                                >Delete Full Route</HyperlinkButton>
+    </Grid>
+</Page>
+

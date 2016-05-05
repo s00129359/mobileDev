@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="S00129359.Profile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:S00129359"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FFF1DFAC">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="4*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <HyperlinkButton Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Content="Home"  Background="#FF5F9CF9"></HyperlinkButton>
+        <HyperlinkButton Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" Content="Profile" Background="#FF307A77"></HyperlinkButton>
+        <HyperlinkButton Grid.Row="0" Grid.Column="3" HorizontalAlignment="Stretch" Content="Log Out" Background="#FFAB3BF9"></HyperlinkButton>
+
+        <Grid Background="Black" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3"></Grid>
+        <TextBlock Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White" FontSize="35">Credits Remaining:</TextBlock>
+
+        <TextBlock Grid.Row="4" VerticalAlignment="Center" Grid.Column="1" FontSize="20" Foreground="#FF060606" FontWeight="Bold">First Name</TextBlock>
+        <TextBox  Grid.Row="4" VerticalAlignment="Center" Grid.Column="2" Grid.ColumnSpan="2" FontSize="20" Foreground="#FF060606" FontWeight="Bold" Name="tbxName"></TextBox>
+
+        <TextBlock Grid.Row="5" VerticalAlignment="Center" Grid.Column="1" FontSize="20" Foreground="#FF060606" FontWeight="Bold">Sur-Name</TextBlock>
+        <TextBox  Grid.Row="5" VerticalAlignment="Center" Grid.Column="2" Grid.ColumnSpan="2" FontSize="20" Foreground="#FF060606" FontWeight="Bold" Name="tbxSurName" Background="White"></TextBox>
+
+
+        <TextBlock Grid.Row="6" VerticalAlignment="Center" Grid.Column="1" FontSize="20" Foreground="#FF060606" FontWeight="Bold">Email</TextBlock>
+        <TextBox  Grid.Row="6" VerticalAlignment="Center" Grid.Column="2" Grid.ColumnSpan="2" FontSize="20" Foreground="#FF060606" FontWeight="Bold" Name="tbxemail" Background="White"></TextBox>
+
+        <Button Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Stretch" Grid.Column="1" Grid.ColumnSpan="3" Background="#FFD33737" Click="Button_Click">Edit</Button>
+
+        <TextBlock Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="3" Foreground="Black" FontSize="30" FontWeight="Bold">Click a Ticket to View</TextBlock>
+        <ListBox Name="lstRoutes" Grid.Column="1" Grid.Row="11" Grid.ColumnSpan="4" Grid.RowSpan="3" Margin="1.833,0,21,53"></ListBox>
+        <HyperlinkButton Grid.Row="13" Grid.Column="1" HorizontalAlignment="Stretch" Grid.ColumnSpan="3" Background="#FF158D09" Click="HyperlinkButton_Click">GO</HyperlinkButton>
+    </Grid>
+
+</Page>

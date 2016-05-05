@@ -1,0 +1,85 @@
+﻿<Page
+    x:Class="S00129359.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:S00129359"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot" Background="#FFF1D791">
+
+        <Grid Margin="5,0,0,0">
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+                <RowDefinition Height="Auto"/>
+
+            </Grid.RowDefinitions>
+
+            <!--Title-->
+
+            <TextBlock Text="Register New Account" Grid.Row="0" FontSize="40"  Foreground="Black"/>
+
+
+
+            <!--UserName-->
+
+            <TextBlock Text="First Name :" Grid.Row="1" Foreground="Black"   Margin="0,25,0,0"/>
+
+            <TextBox Name="tbFirstName" BorderBrush="LightGray" Grid.Row="1" Margin="100,0,0,0" />
+
+
+
+            <!--Password-->
+
+            <TextBlock Text="Second Name: " Grid.Row="2" Margin="0,25,0,0" Foreground="Black" />
+
+            <TextBox Name="tbSecondName" BorderBrush="LightGray" Grid.Row="2" Margin="100,0,0,0" />
+
+
+
+            <!--Phone Number-->
+
+            <TextBlock Text="Password : " Grid.Row="5" Margin="0,25,0,0" Foreground="Black" />
+
+            <PasswordBox Name="tbPassword" BorderBrush="LightGray" MaxLength="10" Grid.Row="5" Margin="100,0,0,0"/>
+
+
+
+            <!--Email-->
+
+            <TextBlock Text="Email: " Grid.Row="6" Margin="0,25,0,0" Foreground="Black" />
+
+            <TextBox Name="tbEmail" BorderBrush="LightGray" Grid.Row="6" Margin="100,0,0,0"/>
+
+
+
+            <!--Submit Button-->
+
+            <Button BorderBrush="Transparent"  Background="#FF30DABB" Content="Submit"  Name="BtnSubmit" Click="Submit_Click" Grid.Row="7" Margin="139,0,0,0.5"/>
+            <TextBlock Name="tbError" HorizontalAlignment="Left" Margin="159,110,0,-52.333" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            <ComboBox HorizontalAlignment="Left" Margin="63,146,0,-74.667" Grid.Row="7" VerticalAlignment="Top" Width="120"/>
+
+
+
+        </Grid>
+
+    </Grid>
+
+</Page>

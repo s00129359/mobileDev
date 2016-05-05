@@ -1,0 +1,72 @@
+﻿<Page
+    x:Class="S00129359.AddRoute"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:S00129359"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FFF1DFAC">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+
+            <RowDefinition Height="1*"></RowDefinition>
+
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+
+            <RowDefinition Height="1*"></RowDefinition>
+
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="7*"></ColumnDefinition>
+            <ColumnDefinition Width="7*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <HyperlinkButton Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Background="#FFDA1717" Click="HyperlinkButton_Click">Return</HyperlinkButton>
+
+        <TextBlock Grid.Column="1" Grid.Row="1" Foreground="Black" VerticalAlignment="Center" FontSize="33.333" FontWeight="Bold">Departs</TextBlock>
+        <TextBox Grid.Column="2" Grid.Row="1" Name="tbDepart"></TextBox>
+
+        <TextBlock Grid.Column="1" Grid.Row="2" Foreground="Black" VerticalAlignment="Center" FontSize="33.333" FontWeight="Bold">Arrives</TextBlock>
+        <TextBox Grid.Column="2" Grid.Row="2" Name="tbArrive"></TextBox>
+
+        <TextBlock Grid.Column="1" Grid.Row="3" Foreground="Black" VerticalAlignment="Center" FontSize="33.333" FontWeight="Bold">Cost</TextBlock>
+        <TextBox Grid.Column="2" Grid.Row="3" Name="tbCost"></TextBox>
+
+
+        <TextBlock Grid.Column="1" Grid.Row="5" Foreground="Black" VerticalAlignment="Center" FontSize="27" FontWeight="Bold">Depart Time</TextBlock>
+        <TextBox Grid.Column="2" Grid.Row="5" Name="tbDepartTime"></TextBox>
+
+        <TextBlock Grid.Column="1" Grid.Row="6" Foreground="Black" VerticalAlignment="Center" FontSize="27" FontWeight="Bold">Arrive Time</TextBlock>
+        <TextBox Grid.Column="2" Grid.Row="6" Name="tbArriveTime"></TextBox>
+
+        <TextBlock Grid.Column="1" Grid.Row="7" Foreground="Black" VerticalAlignment="Center" FontSize="27" FontWeight="Bold">Bus No.</TextBlock>
+        <TextBox Grid.Column="2" Grid.Row="7" Name="tbBusNo"></TextBox>
+
+        <CheckBox Name="cbxMonday" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Row="9" FontSize="27" Background="#FFB6B6B6" Foreground="#FFF31717" BorderBrush="Black">Monday</CheckBox>
+        <CheckBox Name="cbxTuesday" Grid.Column="2" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Stretch" Background="#FFB6B6B6" Foreground="#FFF31717" BorderBrush="Black">Tuesday</CheckBox>
+
+        <CheckBox Name="cbxWednesday" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Row="10" FontSize="27" Background="#FFB6B6B6" Foreground="#FFF31717" BorderBrush="Black">Wednesday</CheckBox>
+        <CheckBox Name="cbxThursday" Grid.Column="2" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Stretch" Foreground="#FFF31717" BorderBrush="Black" Background="#FFB6B6B6">Thursday</CheckBox>
+
+        <CheckBox Name="cbxFriday" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Row="11" FontSize="27" Background="#FFB6B6B6" Foreground="#FFF31717" BorderBrush="Black">Friday</CheckBox>
+        <CheckBox Name="cbxSaturday" Grid.Column="2" Grid.Row="11" HorizontalAlignment="Center" VerticalAlignment="Stretch" Foreground="#FFF31717" BorderBrush="Black" Background="#FFB6B6B6">Satruday</CheckBox>
+        <CheckBox Name="cbxSunday" Grid.Column="1" Grid.Row="12" HorizontalAlignment="Center" VerticalAlignment="Stretch" Foreground="#FFF31717" BorderBrush="Black" Background="#FFB6B6B6">Sunday</CheckBox>
+
+        <HyperlinkButton Grid.Row="13" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Background="#FF57BD10" Click="HyperlinkButton_Click_1">Submit</HyperlinkButton>
+    </Grid>
+</Page>
