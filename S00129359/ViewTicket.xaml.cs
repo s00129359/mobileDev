@@ -60,6 +60,7 @@ namespace S00129359
                 routeId = tick.RouteId;
 
                 type = tick.TicketType;
+
                 if (type == "Single")
                 {
                    ticketType = "No";
@@ -68,6 +69,8 @@ namespace S00129359
                 {
                    ticketType = "Yes";
                 }
+                tBxreturn.Text = ticketType;
+
 
 
                 if (tick.FirstJourneyUsed == false)
@@ -87,10 +90,15 @@ namespace S00129359
                 {
                     seconduse = "Fully used";
                 }
-                
+
+                DateTime purchaseDate = tick.PurchaseDate;
+                //set dat
+                tBxDate.Text = purchaseDate.ToString("d");
+                DateTime validTill = purchaseDate.AddYears(1);
+                tBxValid.Text = validTill.ToString("d");
             }
 
-            tBxreturn.Text = ticketType;
+
             if (firstuse == "unused")
             {
                 tblStatus.Text = "Un-Used";
@@ -119,6 +127,7 @@ namespace S00129359
                 tBxArrive.Text = rte.Arrives;
                 tBxRouteNo.Text = rte.Route_id.ToString();
             }
+           
 
         }
 

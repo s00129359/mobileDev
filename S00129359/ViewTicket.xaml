@@ -49,9 +49,9 @@
         <TextBlock HorizontalAlignment="Left" Grid.Row="6" Grid.Column="1" TextWrapping="Wrap" Text="Return" VerticalAlignment="Center" FontSize="30" RenderTransformOrigin="0.546,-0.972" Foreground="Black" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Grid.Row="7" Grid.Column="1" TextWrapping="Wrap" Text="Date" VerticalAlignment="Center" FontSize="30" Foreground="Black" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Grid.Row="8" Grid.Column="1" TextWrapping="Wrap" Text="Valid Until" VerticalAlignment="Center" FontSize="26.667" Width="143" Foreground="Black" FontWeight="Bold"/>
-        <TextBlock x:Name="tBxDeparts" Grid.Row="3" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="30" Foreground="Black"/>
-        <TextBlock x:Name="tBxArrive" Grid.Row="4" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="30" Foreground="Black"/>
-        <TextBlock x:Name="tBxRouteNo" Grid.Row="5" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="30" Foreground="Black"/>
+        <TextBlock x:Name="tBxRouteNo" Grid.Row="3" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="30" Foreground="Black"/>
+        <TextBlock x:Name="tBxDeparts" Grid.Row="4" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="30" Foreground="Black"/>
+        <TextBlock x:Name="tBxArrive" Grid.Row="5" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="30" Foreground="Black"/>
         <TextBlock x:Name="tBxreturn" Grid.Row="6" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="30" Foreground="Black"/>
         <TextBlock x:Name="tBxDate" Grid.Row="7" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="30" Foreground="Black"/>
         <TextBlock x:Name="tBxValid" Grid.Row="8" Grid.Column="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="30" Foreground="Black"/>

@@ -16,7 +16,7 @@
             <ColumnDefinition Width="1*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
             <RowDefinition Height="2*"></RowDefinition>
             <RowDefinition Height="2*"></RowDefinition>
             <RowDefinition Height="5*"></RowDefinition>
@@ -28,21 +28,22 @@
             <RowDefinition Height="2*"></RowDefinition>
             <RowDefinition Height="1*"></RowDefinition>
         </Grid.RowDefinitions>
-
+        
+        <HyperlinkButton x:ConnectionId='1' Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Background="#FFD35F5F"                                >Return</HyperlinkButton>
         <TextBlock Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="30" x:Name="tblJourney" Text="Journey" Foreground="#FF1D0DBB" FontWeight="Bold" />
         <!--<TextBlock Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" Text="Date" FontSize="30" Foreground="#FF1D0DBB" FontWeight="Bold"/>-->
         <TextBlock  Grid.Column="1" Grid.Row="2" x:Name="tblJourneyDay" VerticalAlignment="Center" HorizontalAlignment="Left" Text="Date" FontSize="25" Foreground="#FF1D0DBB" FontStyle="Italic"/>
 
-        <ListBox Name="lstDepart" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3"></ListBox>
+        <ListBox Name="lstDepart" FontSize="25" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3"></ListBox>
 
 
         <TextBlock Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Left" Name="tblJourney1" Foreground="#FF1D0DBB" FontSize="30" Text="Journey" FontWeight="Bold" />
         <!--<TextBlock Grid.Column="1" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center" Text="Date" Foreground="#FF1D0DBB" FontSize="30" FontWeight="Bold"/>-->
         <TextBlock  Grid.Column="1" Grid.Row="6" x:Name="tblJourneyDay1" HorizontalAlignment="Left" Text="." Foreground="#FF1D0DBB" FontSize="25" FontStyle="Italic" />
 
-        <ListBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="7" Name="lstReturn"></ListBox>
+        <ListBox Grid.Column="1" FontSize="25" Grid.ColumnSpan="2" Grid.Row="7" Name="lstReturn"></ListBox>
 
-        <HyperlinkButton x:ConnectionId='1' Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="9" HorizontalAlignment="Stretch" Background="#FF52BB33"                              >Submit</HyperlinkButton>
+        <HyperlinkButton x:ConnectionId='2' Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="9" HorizontalAlignment="Stretch" Background="#FF52BB33"                              >Submit</HyperlinkButton>
 
     </Grid>
 

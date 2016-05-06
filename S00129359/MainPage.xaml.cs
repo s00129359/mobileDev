@@ -50,22 +50,17 @@ namespace S00129359
             Routes();
             UpdteUser();
 
-            //while azure gone
-            //cbxDepart.Items.Add("1. IT Sligo To Rosses Point");
-            //cbxDepart.Items.Add("2. Grange To IT Sligo");
-
-
             TicketType();
 
             PopulateDays();
 
-            //only for prepoulation data to use and test
+            //only for pre-poulation data to use and test
             // Add();
 
         }
 
-        private async void Add()
-        {
+       // private async void Add()
+       // {
             // One Example of each
 
             //var ds = new User() { FirstName = "Cormac", SeondName = "Hallinan", Email = "s00129359@mail.itsligo.ie", Password = "12345" };
@@ -77,7 +72,7 @@ namespace S00129359
             //var journey = new Journey { Route_id = 1, DepartureTime = "09:00", ArrivalTime = "09:30", Monday = true, Tuesday = true, Wednesday = true, Thursday = true, Friday = true, Saturday = false, Sunday = false };
             //await journeyTbl.InsertAsync(journey);
 
-        }
+       // }
 
         private void cbxDepart_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -140,8 +135,11 @@ namespace S00129359
 
             cbxDepart.SelectedIndex = 0;
 
-        }
+            //because the color of the text in the combobox was turning white
+            //i tried to code it turn it back to black for better visability
+            cbxDepart.Foreground = new SolidColorBrush(Windows.UI.Colors.Black);
 
+        }
         public async void UpdteUser()
         {
        // wanted to update users credits so he has some be default
@@ -204,8 +202,6 @@ namespace S00129359
             Params prm = new Params { routeId = routeId, date = day, returnDate = returnDay, ticketType = ticketType };
             Frame.Navigate(typeof(Journeys), prm);
 
-            // Frame.Navigate(typeof(Journeys));
-
 
 
         }
@@ -240,7 +236,13 @@ namespace S00129359
 
                 cbxDepartDay.Items.Add(item);
                 cbxReturnDate.Items.Add(item);
+
+                cbxDepartDay.SelectedIndex = 0;
+                cbxReturnDate.SelectedIndex = 0;
             }
+
+            cbxDepartDay.Foreground = new SolidColorBrush(Windows.UI.Colors.Black);
+            cbxReturnDate.Foreground = new SolidColorBrush(Windows.UI.Colors.Black);
         }
 
         //class for days of the week
@@ -259,6 +261,11 @@ namespace S00129359
         private void HyperlinkButton_Click_2(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(Profile));
+        }
+
+        private void HyperlinkButton_Click_3(object sender, RoutedEventArgs e)
+        {
+            //
         }
     }
     

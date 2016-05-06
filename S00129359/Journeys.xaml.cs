@@ -76,7 +76,6 @@ namespace S00129359
                 day = prm.date;
                 returnDay = prm.returnDate;
                 ticketType = prm.ticketType;
-
             }
 
             PopulateJourney();
@@ -92,13 +91,10 @@ namespace S00129359
 
             string depart = "", arrive = "";
 
-            if (0 == 0)
+            foreach (var route in itm)
             {
-                foreach (var route in itm)
-                {
                     depart = route.Departs;
                     arrive = route.Arrives;
-                }
             }
 
             tblJourney.Text = depart + " TO " + arrive;
@@ -117,7 +113,7 @@ namespace S00129359
                 journeyId = jour.Journey_id;
                 arrTime = jour.ArrivalTime;
                 depTime = jour.DepartureTime;
-                string list = "Departs : " + depTime + ", Arrives : " + arrTime;
+                string list = "Departs : " + depTime + " | Arrives : " + arrTime;
 
                 lstDepart.Items.Add(list);
             }
@@ -129,8 +125,9 @@ namespace S00129359
             if (ticketType == "Single")
             {
                 tblJourney1.Text = "No Return";
-                lstDepart.ItemsSource = ("No Return Journey");
-                lstDepart.IsEnabled = false;
+                lstReturn.Items.Add("No Return Journey");
+                lstReturn.IsEnabled = false;
+                
             }
             else
             {
@@ -168,7 +165,7 @@ namespace S00129359
                     {
                         depTime = jour.ArrivalTime;
                         arrTime = jour.DepartureTime;
-                        string list = "Departs : " + depTime + ", Arrives : " + arrTime;
+                        string list = "Departs : " + depTime + " | Arrives : " + arrTime;
 
                         lstReturn.Items.Add(list);
                     }
@@ -184,6 +181,11 @@ namespace S00129359
             Params prm = new Params { routeId = routeId, date = day, returnDate = returnDay, ticketType = ticketType };
 
             Frame.Navigate(typeof(Confirm), prm);
+        }
+
+        private void HyperlinkButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
         }
     }
 }

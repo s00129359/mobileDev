@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-100"
+"ResourceDimensions"		"scale-100"
+
+[Files]
+"C:\Users\User\Desktop\S00129359\S00129359\obj\Release\filemap.scale-100.pri"			"resources.pri"
+"C:\Users\User\Desktop\S00129359\S00129359\obj\Release\PackageLayout\Assets\bus.scale-100.png"			"Assets\bus.scale-100.png"

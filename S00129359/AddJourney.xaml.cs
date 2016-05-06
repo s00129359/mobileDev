@@ -99,9 +99,9 @@ namespace S00129359
             {
                 friday = true;
             }
-
+            
             //get from inputs and insert
-            var addJounrey = new Journey() { Route_id = routeId, Journey_id = newJourneyId, DepartureTime = tbDeaprt.Text, ArrivalTime = tbArrive.Text, Monday = monday, Tuesday = tuesday, Wednesday = wednesday, Thursday = thursday, Friday = friday };
+            var addJounrey = new Journey() { Route_id = routeId, Journey_id = newJourneyId, DepartureTime = DateTime.Parse(tbDeaprt.Time.ToString()).ToString("HH:mm"), ArrivalTime = DateTime.Parse(tbArrive.Time.ToString()).ToString("HH:mm"), Monday = monday, Tuesday = tuesday, Wednesday = wednesday, Thursday = thursday, Friday = friday };
 
             await journeyTbl.InsertAsync(addJounrey);
 

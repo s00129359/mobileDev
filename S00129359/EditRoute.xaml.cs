@@ -25,6 +25,7 @@ namespace S00129359
     public sealed partial class EditRoute : Page
     {
         public int routeId;
+        string stringId;
         private IMobileServiceTable<Journey> journeyTbl = App.MobileService.GetTable<Journey>();
         private IMobileServiceTable<Route> routeTbl = App.MobileService.GetTable<Route>();
 
@@ -40,9 +41,13 @@ namespace S00129359
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            string sRouteId = e.Parameter as string;
-            routeId = Convert.ToInt32(sRouteId);
-
+           // string sRouteId = e.Parameter as string;
+           // routeId = Convert.ToInt32(sRouteId);
+            Params prm = e.Parameter as Params;
+            if (prm != null)
+            {
+                routeId = prm.routeId;
+            }
             Route();
             getJourneys();
         }
@@ -54,7 +59,7 @@ namespace S00129359
                 .ToListAsync();
             foreach (var route in routes)
             {
-                tbRoute.Text = route.Departs = " To " + route.Arrives;
+                tbRoute.Text = route.Departs + " To " + route.Arrives;
             }
         }
 
@@ -66,6 +71,7 @@ namespace S00129359
 
             foreach (var journey in journeys)
             {
+                stringId = journey.id;
                 string data = journey.Journey_id + ". " + "Departs " + journey.DepartureTime + " Arrives " + journey.ArrivalTime;
                 lstJourneys.Items.Add(data);
             }
@@ -93,17 +99,22 @@ namespace S00129359
             int indx = reportSelcted.LastIndexOf(".");
             string journeyId = reportSelcted.Substring(0, indx);
 
-            Frame.Navigate(typeof(EditJourney), journeyId);
+            Params prm = new Params { routeId = routeId, JourneyId = Convert.ToInt32(journeyId) };
+
+            Frame.Navigate(typeof(EditJourney), prm);
         }
 
         private async void HyperlinkButton_Click_2(object sender, RoutedEventArgs e)
         {
-            ////delte the route you have clicked int0
-            //Route deleteRoute = await routeTbl
-            //    .Where(r => r.Route_id == routeId)
-            //    .ToListAsync();
+            //delte the route you have clicked int0
+            Route deleteRoute = await routeTbl
+                .LookupAsync(stringId);
+                //.Where(r => r.Route_id == routeId);
+                //.Where(r => r.id == "scf");
 
-            //await routeTbl.DeleteAsync(deleteRoute);
+            ////http://stackoverflow.com/questions/32118966/how-to-delete-particular-record-in-azure-mobile-service
+
+            await routeTbl.DeleteAsync(deleteRoute);
 
             Frame.Navigate(typeof(Admin));
         }

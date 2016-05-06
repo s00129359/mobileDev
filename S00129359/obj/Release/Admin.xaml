@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="S00129359.Admin"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:S00129359"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FFF1DFAC">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="6*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <HyperlinkButton Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Content="Home"  Background="#FF5F9CF9"></HyperlinkButton>
+        <HyperlinkButton x:ConnectionId='1' Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" Content="Profile" Background="#FF307A77"                                ></HyperlinkButton>
+        <HyperlinkButton Grid.Row="0" Grid.Column="3" HorizontalAlignment="Stretch" Content="Log Out" Background="#FFAB3BF9"></HyperlinkButton>
+
+        <HyperlinkButton x:ConnectionId='2' HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Background="#FFC46EF5"                              >Add Route</HyperlinkButton>
+
+        <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF9E0202" FontSize="25" FontWeight="Bold">Choose a Route to Edit</TextBlock>
+        <ListBox x:ConnectionId='3' Name="lstRoutes" Grid.Column="1" Grid.Row="3"  Grid.ColumnSpan="3" FontSize="25"                                              ></ListBox>
+        <HyperlinkButton x:ConnectionId='4' Name="btnEdit" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" Background="#FF309512" IsEnabled="False"                                >Edit Route</HyperlinkButton>
+    </Grid>
+</Page>
+

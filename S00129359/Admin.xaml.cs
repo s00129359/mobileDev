@@ -39,7 +39,6 @@ namespace S00129359
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             loadRoutes();
-            //lstRoutes.Items.Add("1. IT Sligo TO Rosses Point");
         }
 
         private async void loadRoutes()
@@ -64,8 +63,10 @@ namespace S00129359
             string Selcted = lstRoutes.SelectedItem.ToString();
             int indx = Selcted.LastIndexOf(".");
             string routeId = Selcted.Substring(0, indx);
-            
-            Frame.Navigate(typeof(EditRoute), routeId);
+
+            Params prm = new Params { routeId = Convert.ToInt32(routeId)};
+
+            Frame.Navigate(typeof(EditRoute), prm);
         }
 
         private void lstRoutes_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -76,6 +77,11 @@ namespace S00129359
         private void HyperlinkButton_Click_2(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(Profile));
+        }
+
+        private void HyperlinkButton_Click_3(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
         }
     }
 }

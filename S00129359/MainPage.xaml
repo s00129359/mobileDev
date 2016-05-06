@@ -33,7 +33,7 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <HyperlinkButton Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Content="Home"  Background="#FF5F9CF9"></HyperlinkButton>
+        <HyperlinkButton Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Content="Home"  Background="#FF5F9CF9" Click="HyperlinkButton_Click_3"></HyperlinkButton>
         <HyperlinkButton Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" Content="Profile" Background="#FF307A77" Click="HyperlinkButton_Click_2"></HyperlinkButton>
         <HyperlinkButton Grid.Row="0" Grid.Column="3" HorizontalAlignment="Stretch" Content="Log Out" Background="#FFAB3BF9" Click="HyperlinkButton_Click_1"></HyperlinkButton>
 

@@ -13,7 +13,6 @@ namespace S00129359.Data
         public string date { get; set; }
         public string returnDate { get; set; }
         public string ticketType { get; set; }
-
         public int JourneyId { get; set; }
 
     }

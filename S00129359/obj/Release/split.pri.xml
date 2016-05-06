@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="59801HistoryAppTeam.s00129359" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN-US</Language>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="AddJourney.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/AddJourney.xbf">
+				<Candidate type="Path">
+					<Value>AddJourney.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="AddRoute.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/AddRoute.xbf">
+				<Candidate type="Path">
+					<Value>AddRoute.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Admin.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Admin.xbf">
+				<Candidate type="Path">
+					<Value>Admin.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="App.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BuyCredits.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/BuyCredits.xbf">
+				<Candidate type="Path">
+					<Value>BuyCredits.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Confirm.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Confirm.xbf">
+				<Candidate type="Path">
+					<Value>Confirm.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EditJourney.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/EditJourney.xbf">
+				<Candidate type="Path">
+					<Value>EditJourney.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EditRoute.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/EditRoute.xbf">
+				<Candidate type="Path">
+					<Value>EditRoute.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Journeys.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Journeys.xbf">
+				<Candidate type="Path">
+					<Value>Journeys.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="LogIn.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/LogIn.xbf">
+				<Candidate type="Path">
+					<Value>LogIn.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/MainPage.xbf">
+				<Candidate type="Path">
+					<Value>MainPage.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Profile.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Profile.xbf">
+				<Candidate type="Path">
+					<Value>Profile.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Register.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Register.xbf">
+				<Candidate type="Path">
+					<Value>Register.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="S00129359.xr.xml" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/S00129359.xr.xml">
+				<Candidate type="Path">
+					<Value>S00129359.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ViewTicket.xbf" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/ViewTicket.xbf">
+				<Candidate type="Path">
+					<Value>ViewTicket.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="bus.png" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Assets/bus.png"/>
+				<NamedResource name="img.png" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Assets/img.png">
+					<Candidate type="Path">
+						<Value>Assets\img.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="log.png" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Assets/log.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\log.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="sLogo.png" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Assets/sLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\sLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SqLogo.png" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Assets/SqLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SqLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wide.png" uri="ms-resource://59801HistoryAppTeam.s00129359/Files/Assets/wide.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\wide.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Diagnostics.Tracing.Messages">
+			<NamedResource name="ArgumentOutOfRange_MaxArgExceeded" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/ArgumentOutOfRange_MaxArgExceeded">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The total number of parameters must not exceed {0}. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ArgumentOutOfRange_MaxStringsExceeded" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/ArgumentOutOfRange_MaxStringsExceeded">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The number of String parameters must not exceed {0}. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ArgumentOutOfRange_NeedNonNegNum" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/ArgumentOutOfRange_NeedNonNegNum">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The parameter must be positive.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ArgumentOutOfRange_NeedValidId" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/ArgumentOutOfRange_NeedValidId">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The parameter must be in the range {0} through {1}. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_AbstractMustNotDeclareEventMethods" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_AbstractMustNotDeclareEventMethods">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Abstract event source must not declare event methods ({0} with ID {1}).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_AbstractMustNotDeclareKTOC" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_AbstractMustNotDeclareKTOC">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Abstract event source must not declare {0} nested type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_AddScalarOutOfRange" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_AddScalarOutOfRange">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Getting out of bounds during scalar addition. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_AttributeOnNonVoid" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_AttributeOnNonVoid">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>[Event] attribute placed on method {0} which does not return 'void'. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_BadHexDigit" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_BadHexDigit">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Bad Hexadecimal digit "{0}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_ChannelTypeDoesNotMatchEventChannelValue" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_ChannelTypeDoesNotMatchEventChannelValue">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Channel {0} does not match event channel value {1}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_DataDescriptorsOutOfRange" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_DataDescriptorsOutOfRange">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Data descriptors are out of range.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_DuplicateStringKey" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_DuplicateStringKey">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Multiple definitions for string "{0}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EnumKindMismatch" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EnumKindMismatch">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The type of {0} ({1}) is not expected in {2}. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EtwAlreadyRegistered" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EtwAlreadyRegistered">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The provider has already been registered with the operating system. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EvenHexDigits" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EvenHexDigits">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Must have an even number of Hexadecimal digits.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EventChannelOutOfRange" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EventChannelOutOfRange">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Channel {0} has a value of [1} which is outside the legal range (16-254).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EventIdReused" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EventIdReused">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event {0} has ID {1} which is already in use by event {2}. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EventMustHaveTaskIfNonDefaultOpcode" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EventMustHaveTaskIfNonDefaultOpcode">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event {0} (with ID {1}) has a non-default opcode but not a task.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EventMustNotBeExplicitImplementation" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EventMustNotBeExplicitImplementation">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event method {0} (with ID {1}) is an explicit interface method implementation. Re-write method as implicit implementation.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EventNameDoesNotEqualTaskPlusOpcode" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EventNameDoesNotEqualTaskPlusOpcode">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event {0} (with ID {1}) has a name that is not the concatenation of its task name and opcode.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EventNameReused" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EventNameReused">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event name {0} used more than once.  If you wish to overload a method, the overloaded method should have a NonEvent attribute. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EventParametersMismatch" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EventParametersMismatch">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event {0} was called with {1} argument(s) , but it is defined with {2} paramenter(s).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EventSourceGuidInUse" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EventSourceGuidInUse">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>An instance of EventSource with Guid {0} already exists. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EventTooBig" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EventTooBig">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The payload for a single event is too large. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_EventWithAdminChannelMustHaveMessage" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_EventWithAdminChannelMustHaveMessage">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event {0} specifies an Admin channel {1}. It must specify a Message property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_IllegalKeywordsValue" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_IllegalKeywordsValue">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Keyword {0} has a value of {1} which is outside the legal range (0-0x0000080000000000).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_IllegalOpcodeValue" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_IllegalOpcodeValue">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Opcode {0} has a value of {1} which is outside the legal range (11-238).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_IllegalTaskValue" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_IllegalTaskValue">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Task {0} has a value of {1} which is outside the legal range (1-65535).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_IllegalValue" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_IllegalValue">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Illegal value "{0}" (prefix strings with @ to indicate a literal string).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_IncorrentlyAuthoredTypeInfo" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_IncorrentlyAuthoredTypeInfo">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Incorrectly-authored TypeInfo - a type should be serialized as one field or as one group</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_InvalidCommand" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_InvalidCommand">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Invalid command value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_InvalidEventFormat" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_InvalidEventFormat">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Can't specify both etw event format flags.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_KeywordCollision" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_KeywordCollision">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Keywords {0} and {1} are defined with the same value ({2}).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_KeywordNeedPowerOfTwo" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_KeywordNeedPowerOfTwo">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Value {0} for keyword {1} needs to be a power of 2. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_ListenerCreatedInsideCallback" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_ListenerCreatedInsideCallback">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Creating an EventListener inside a EventListener callback. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_ListenerNotFound" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_ListenerNotFound">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Listener not found. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_ListenerWriteFailure" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_ListenerWriteFailure">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>An error occurred when writing to a listener. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_MaxChannelExceeded" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_MaxChannelExceeded">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Attempt to define more than the maximum limit of 8 channels for a provider.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_MismatchIdToWriteEvent" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_MismatchIdToWriteEvent">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event {0} is given event ID {1} but {2} was passed to WriteEvent. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_NeedGuid" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_NeedGuid">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The Guid of an EventSource must be non zero. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_NeedName" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_NeedName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The name of an EventSource must not be null. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_NeedPositiveId" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_NeedPositiveId">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event IDs must be positive integers (error for {0}). </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_NoFreeBuffers" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_NoFreeBuffers">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>No Free Buffers available from the operating system (e.g. event rate too fast). </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_NonCompliantTypeError" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_NonCompliantTypeError">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The API supports only anonymous types or types decorated with the EventDataAttribute. Non-compliant type: {0} dataType.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_NotSupportedArrayOfBinary" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_NotSupportedArrayOfBinary">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Arrays of Binary are not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_NotSupportedArrayOfNil" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_NotSupportedArrayOfNil">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Arrays of Nil are not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_NotSupportedArrayOfNullTerminatedString" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_NotSupportedArrayOfNullTerminatedString">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Arrays of null-terminated string are not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_NotSupportedCustomSerializedData" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_NotSupportedCustomSerializedData">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Enumerables of custom-serialized data are not supported</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_NotSupportedEnumType" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_NotSupportedEnumType">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Enum type {0} underlying type {1} is not supported for serialization.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_NotSupportedNestedArraysEnums" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_NotSupportedNestedArraysEnums">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Nested arrays/enumerables are not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_NullInput" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_NullInput">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Null passed as an event argument. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_OpcodeCollision" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_OpcodeCollision">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Opcodes {0} and {1} are defined with the same value ({2}).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_PCLPlatformNotSupportedGuid" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_PCLPlatformNotSupportedGuid">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Platform not supported: PCL event source must specify Guid as a property on the EventSourceAttribute</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_PCLPlatformNotSupportedReflection" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_PCLPlatformNotSupportedReflection">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Platform not supported: PCL event source does not support reflection-only loads</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_PeriodIllegalInProviderName" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_PeriodIllegalInProviderName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Period character ('.') is illegal in an ETW provider name ({0}).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_PinArrayOutOfRange" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_PinArrayOutOfRange">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value> Pins are out of range.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_RecursiveTypeDefinition" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_RecursiveTypeDefinition">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Recursive type definition is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_ReservedKeywords" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_ReservedKeywords">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Keywords values larger than 0x0000100000000000 are reserved for system use (event {0})</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_ReservedOpcode" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_ReservedOpcode">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Opcode values less than 11 are reserved for system use. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_SessionIdError" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_SessionIdError">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Bit position in AllKeywords ({0}) must equal the command argument named "EtwSessionKeyword" ({1}). </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_TaskCollision" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_TaskCollision">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Tasks {0} and {1} are defined with the same value ({2}).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_TaskOpcodePairReused" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_TaskOpcodePairReused">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event {0} (with ID {1}) has the same task/opcode pair as event {2} (with ID {3}).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_TooManyArgs" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_TooManyArgs">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Too many arguments. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_TooManyFields" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_TooManyFields">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Too many fields in structure.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_ToString" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_ToString">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>EventSource({0}, {1}) </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_TraitEven" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_TraitEven">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>There must be an even number of trait strings (they are key-value pairs).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_TypeMustBeSealedOrAbstract" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_TypeMustBeSealedOrAbstract">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event source types must be sealed or abstract.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_TypeMustDeriveFromEventSource" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_TypeMustDeriveFromEventSource">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event source types must derive from EventSource.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_UndefinedChannel" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_UndefinedChannel">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Use of undefined channel value {0} for event {1}. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_UndefinedKeyword" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_UndefinedKeyword">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Use of undefined keyword value {0} for event {1}. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_UndefinedOpcode" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_UndefinedOpcode">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Use of undefined opcode value {0} for event {1}. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_UnknownEtwTrait" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_UnknownEtwTrait">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Unknow ETW Trait "{0}".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_UnsupportedEventTypeInManifest" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_UnsupportedEventTypeInManifest">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Unsupported type {0} in event source. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventSource_UnsupportedMessageProperty" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/EventSource_UnsupportedMessageProperty">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Event {0} specifies an illegal or unsupported formatting message ("{1}").</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="UnknownError_Num" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.Diagnostics.Tracing.Messages/UnknownError_Num">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Error {0}.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.WindowsAzure.Messaging.Managed">
+			<ResourceMapSubtree name="Resources">
+				<NamedResource name="ConflictWithReservedName" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ConflictWithReservedName">
+					<Candidate type="String">
+						<Value>Template name is conflict with reserved name.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorArgumentInvalidComError" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorArgumentInvalidComError">
+					<Candidate type="String">
+						<Value>Argument "{0}" does not represent a valid HTTP error code.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorArgumentMustBeNonEmpty" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorArgumentMustBeNonEmpty">
+					<Candidate type="String">
+						<Value>Argument "{0}" must be a non-empty string.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorArgumentMustBePositive" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorArgumentMustBePositive">
+					<Candidate type="String">
+						<Value>Argument "{0}" must be greater than zero. The actual value is "{1}".</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorArgumentMustBeZeroOrPositive" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorArgumentMustBeZeroOrPositive">
+					<Candidate type="String">
+						<Value>Argument "{0}" must be greater than or equal to zero. The actual value is "{1}".</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorConnectionStringEmptyKey" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorConnectionStringEmptyKey">
+					<Candidate type="String">
+						<Value>Empty key name</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorConnectionStringMissingCharacter" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorConnectionStringMissingCharacter">
+					<Candidate type="String">
+						<Value>Missing {0} character</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorConnectionStringMissingKey" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorConnectionStringMissingKey">
+					<Candidate type="String">
+						<Value>Missing key name</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorFailedRequest" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorFailedRequest">
+					<Candidate type="String">
+						<Value>HTTP request failed.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorInvalidConnectionString" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorInvalidConnectionString">
+					<Candidate type="String">
+						<Value>Argument "{0}" is not a valid connection string: "{1}"</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorInvalidEndpoint" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorInvalidEndpoint">
+					<Candidate type="String">
+						<Value>"{0}" is not a valid endpoint. The endpoint must be in the following format: "http://namespace.servicebus.windows.net"</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorInvalidXml" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorInvalidXml">
+					<Candidate type="String">
+						<Value>Xml template is expected to contain CData. But it actually contains "{0}"</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorItemNotFound" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorItemNotFound">
+					<Candidate type="String">
+						<Value>Item "{0}" cannot be found.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorMessageBodyNull" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorMessageBodyNull">
+					<Candidate type="String">
+						<Value>The message body is null</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorMissingServiceBusKey" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorMissingServiceBusKey">
+					<Candidate type="String">
+						<Value>Required key,{0},is missing.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorNoContent" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorNoContent">
+					<Candidate type="String">
+						<Value>HTTP response returned no data.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorNullFilterAndAction" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorNullFilterAndAction">
+					<Candidate type="String">
+						<Value>Either filter or action must not be null.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorParsingConnectionString" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorParsingConnectionString">
+					<Candidate type="String">
+						<Value>"{0}" at position {1}.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorReceivePumpActivated" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorReceivePumpActivated">
+					<Candidate type="String">
+						<Value>Receive operation is not allowed when an OnMessage delegate has been registered with this entity</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorRefreshRegistration" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorRefreshRegistration">
+					<Candidate type="String">
+						<Value>Refresh registration with latest channelUri failed or didn't execute. Please try to call RefreshRegistrationsAsync again.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorUnsupportedPropertyType" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorUnsupportedPropertyType">
+					<Candidate type="String">
+						<Value>Unsupported custom property type: {0}.
+
+Custom properties can be only of string, numerical, Boolean, or DateTime types.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ErrorWrapAuthentication" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ErrorWrapAuthentication">
+					<Candidate type="String">
+						<Value>WRAP authentication failed.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HttpDetails" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/HttpDetails">
+					<Candidate type="String">
+						<Value>HTTP Details:
+Status: {0}
+Reason: {1}
+Full content: {2}</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HttpErrorMessage" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/HttpErrorMessage">
+					<Candidate type="String">
+						<Value>{0}
+
+{1}</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvalidTemplateName" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/InvalidTemplateName">
+					<Candidate type="String">
+						<Value>Template name can't contain ";" or ":".</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MissingChannelUri" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/MissingChannelUri">
+					<Candidate type="String">
+						<Value>ChannelUri is not set. </Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MissingSecondaryChannelUri" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/MissingSecondaryChannelUri">
+					<Candidate type="String">
+						<Value>ChannelUri for the given secondary tile is not set.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NotSupportedXMLFormatAsBodyTemplate" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/NotSupportedXMLFormatAsBodyTemplate">
+					<Candidate type="String">
+						<Value>The bodyTemplate is not in accepted XML format. The first node of the bodyTemplate should be Badge/Tile/Toast, except wns/raw template, which need to be an valid XML.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ObjectDisposedMessage" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/ObjectDisposedMessage">
+					<Candidate type="String">
+						<Value>This object has bee disposed and cannot be used.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RegisterReceivedCallbackAlreadyCalled" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.Messaging.Managed/Resources/RegisterReceivedCallbackAlreadyCalled">
+					<Candidate type="String">
+						<Value>OnMessage has already been called.</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.WindowsAzure.MobileServices.Resources">
+			<NamedResource name="ExpressionUtility_ProjectionNotSupportedOnWindowsPhone75" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ExpressionUtility_ProjectionNotSupportedOnWindowsPhone75">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The Linq IQueryable Select() operation is not supported on the Windows Phone 7.5 platform.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="FilterBuildingExpressionVisitor_MemberUnsupported" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/FilterBuildingExpressionVisitor_MemberUnsupported">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The member '{0}' is not supported in the 'Where' Mobile Services query expression '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="FilterBuildingExpressionVisitor_OperatorUnsupported" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/FilterBuildingExpressionVisitor_OperatorUnsupported">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The operator '{0}' is not supported in the 'Where' Mobile Services query expression '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="FilterBuildingExpressionVisitor_UnsupportedInWhereExpression" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/FilterBuildingExpressionVisitor_UnsupportedInWhereExpression">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>'{0}' is not supported in a 'Where' Mobile Services query expression.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HttpMessageHandlerExtensions_WrongHandlerType" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/HttpMessageHandlerExtensions_WrongHandlerType">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>All message handlers except the last must be of the type '{0}'</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="IApplicationStorage_NullOrWhitespaceSettingName" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/IApplicationStorage_NullOrWhitespaceSettingName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>An application setting name must be provided. Null, empty or whitespace only names are not allowed.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="IAuthenticationBroker_AuthenticationCanceled" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/IAuthenticationBroker_AuthenticationCanceled">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Authentication was cancelled by the user.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="IAuthenticationBroker_AuthenticationFailed" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/IAuthenticationBroker_AuthenticationFailed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Authentication failed with HTTP response code {0}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="IAuthenticationBroker_InvalidLoginResponse" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/IAuthenticationBroker_InvalidLoginResponse">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Invalid format of the authentication response.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="IAuthenticationBroker_LoginFailed" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/IAuthenticationBroker_LoginFailed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Login failed: {0}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="IAuthenticationBroker_LoginInProgress" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/IAuthenticationBroker_LoginInProgress">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Authentication is already in progress.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="IAuthenticationBroker_NoLoginInProgress" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/IAuthenticationBroker_NoLoginInProgress">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Authentication has not been started.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceClient_EmptyArgument" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceClient_EmptyArgument">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>{0} cannot be null, empty or only whitespace.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceClient_ErrorMessage" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceClient_ErrorMessage">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The request could not be completed.  ({0})</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceClient_InnerHandlerMustBeNull" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceClient_InnerHandlerMustBeNull">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The 'InnerHandler' property of the delegating handler must be null.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceClient_NoResponseContent" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceClient_NoResponseContent">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The server did not provide a response with the expected content.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceCollection_IncrementalLoadingFailed" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceCollection_IncrementalLoadingFailed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Failed to incrementally load more items of type '{0}'. See the inner exception for details.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceCollection_LoadInProcess" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceCollection_LoadInProcess">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Loading of more items already in process.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceContractResolver_IntegerIdTypeWithSystemPropertyAttributes" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceContractResolver_IntegerIdTypeWithSystemPropertyAttributes">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The type '{0}' has an integer id member and therefore can not have any members with the system property attribute '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceContractResolver_MemberNotFound" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceContractResolver_MemberNotFound">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>No '{0}' member found on type '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceContractResolver_MultipleSystemPropertyAttributes" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceContractResolver_MultipleSystemPropertyAttributes">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>A member can only have one system property attribute. The member '{0}' on type '{1}' has system property attributes '{2}' and '{3}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceContractResolver_NumberOutOfRange" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceContractResolver_NumberOutOfRange">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The value {0} for member {1} is outside the valid range for numeric columns.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceContractResolver_SamePropertyName" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceContractResolver_SamePropertyName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Only one member may have the property name '{0}' (regardless of casing) on type '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceContractResolver_TypeNoDataContractButBaseWithDataContract" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceContractResolver_TypeNoDataContractButBaseWithDataContract">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The type '{0}' does not have a DataContractAttribute, but the type derives from the type '{1}', which does have a DataContractAttribute. If a type has a DataContractAttribute, any type that derives from that type must also have a DataContractAttribute.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceContractResolver_TypeWithDataMemberButNoDataContract" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceContractResolver_TypeWithDataMemberButNoDataContract">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The type '{0}' has one or members with a DataMemberAttribute, but the type itself does not have a DataContractAttribute. Use the Newtonsoft.Json.JsonPropertyAttribute in place of the DataMemberAttribute and set the PropertyName to the desired name.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceJsonSerializerSettings_NullOrInvalidContractResolver" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceJsonSerializerSettings_NullOrInvalidContractResolver">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The member '{0}.ContractResolver' must be set to an instance of the '{1}' class or a class that inherits from the '{1}' class.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServicePrecisionCheckConverter_ReadNotSupported" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServicePrecisionCheckConverter_ReadNotSupported">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The {0} does not support reading JSON.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServicesAuthentication_LoginAlreadyInProgress" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServicesAuthentication_LoginAlreadyInProgress">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot start a login operation because login is already in progress.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSerializer_IdCasingIncorrect" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSerializer_IdCasingIncorrect">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The casing of the '{0}' property is invalid.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSerializer_IdNotFound" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSerializer_IdNotFound">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Expected {0} member not found.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSerializer_IdTypeMismatch" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSerializer_IdTypeMismatch">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>You might be affected by Mobile Services latest changes to support string Ids. For more details: http://go.microsoft.com/fwlink/?LinkId=330396</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSerializer_InvalidIntegerId" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSerializer_InvalidIntegerId">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The integer id '{0}' is not a positive integer value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSerializer_InvalidStringId" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSerializer_InvalidStringId">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The string id '{0}' is invalid. An id must not contain any control characters or the characters ",+,?,\,/,`.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSerializer_LookupInvalidIdType" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSerializer_LookupInvalidIdType">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The id parameter type '{0}' is invalid for looking up items of type '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSerializer_NullOrEmptyStringId" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSerializer_NullOrEmptyStringId">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The id can not be null or an empty string.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSerializer_StringIdTooLong" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSerializer_StringIdTooLong">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The string id '{0}' is longer than the max string id length of {1} characters.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSyncTable_IdMustBeString" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSyncTable_IdMustBeString">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The id must be of type string.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSyncTable_IncrementalPullWithOrderNotAllowed" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSyncTable_IncrementalPullWithOrderNotAllowed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Incremental pull query must not have orderby clause.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSyncTable_IncrementalPullWithSkipTopNotSupported" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSyncTable_IncrementalPullWithSkipTopNotSupported">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Incremental pull query must not have skip or top specified.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSyncTable_InvalidQueryId" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSyncTable_InvalidQueryId">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The query id must not contain pipe character and should be less than 50 characters in length.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSyncTable_OrderByNotAllowed" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSyncTable_OrderByNotAllowed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The supported table options does not include orderby.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSyncTable_PullWithSelectNotSupported" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSyncTable_PullWithSelectNotSupported">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Pull query with select clause is not supported.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSyncTable_SkipNotAllowed" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSyncTable_SkipNotAllowed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The supported table options does not include skip. </Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceSyncTable_TopNotAllowed" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceSyncTable_TopNotAllowed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The supported table options does not include top.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTableOperation_ItemNotFound" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTableOperation_ItemNotFound">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Operation must have an item associated with it.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTableOperation_ResultNotJObject" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTableOperation_ResultNotJObject">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Mobile Service table operation returned an unexpected response.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTableQueryDescription_UnrecognizedQueryParameter" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTableQueryDescription_UnrecognizedQueryParameter">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Unrecognized query parameter '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTableQueryTranslator_MembersOnlyInExpression" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTableQueryTranslator_MembersOnlyInExpression">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>'{0}' Mobile Services query expressions must consist of members only, not '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTableQueryTranslator_SingleIntegerOnly" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTableQueryTranslator_SingleIntegerOnly">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>'{0}' Mobile Services query expressions must consist of a single integer, not '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTableQueryTranslator_UnsupportedExpression" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTableQueryTranslator_UnsupportedExpression">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Expression '{1}' is not a supported '{0}' Mobile Services query expression.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTableSerializer_CannotDeserializeValue" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTableSerializer_CannotDeserializeValue">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot deserialize value {0} into '{1}.{2}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTableSerializer_MissingRequiredMember" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTableSerializer_MissingRequiredMember">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot deserialize type '{0}' because the JSON object did not have required member(s) '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTableSerializer_NeedObject" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTableSerializer_NeedObject">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Expected a JSON object to deserialize, not '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTableSerializer_UnknownType" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTableSerializer_UnknownType">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot serialize member '{0}' of type '{1}' declared on type '{2}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTableUrlBuilder_InvalidParameterBeginsWithDollarSign" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTableUrlBuilder_InvalidParameterBeginsWithDollarSign">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>{0} is an invalid user-defined query string parameter. User-defined query string parameters must not begin with a \'$\'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTable_DeleteWithoutId" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTable_DeleteWithoutId">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot delete if the {0} member is set to a default value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTable_ExpectedArray" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTable_ExpectedArray">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Could not get an array from response {0}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTable_InsertWithExistingId" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTable_InsertWithExistingId">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot insert if the {0} member is already set.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTable_ItemNotFoundInStore" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTable_ItemNotFoundInStore">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Item not found in local store.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTable_NotSingleObject" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTable_NotSingleObject">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Could not get object from response {0}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTable_QueryUriHostIsDifferent" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTable_QueryUriHostIsDifferent">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The query uri must be on the same host as the Mobile Service.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileServiceTable_UpdateWithoutId" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/MobileServiceTable_UpdateWithoutId">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cannot update if the {0} member is set to a default value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_CloseParenOrCommaExpected" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_CloseParenOrCommaExpected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>"')' or ',' expected.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_CloseParenOrOperatorExpected" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_CloseParenOrOperatorExpected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>')' or operator expected</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_DigitExpected" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_DigitExpected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Digit expected.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_ExpressionExpected" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_ExpressionExpected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Expression expected.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_FunctionArgsCount" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_FunctionArgsCount">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Function '{0}' requires {1} parameter(s).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_IdentifierExpected" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_IdentifierExpected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Expected identifier.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_IntegerLiteralExpected" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_IntegerLiteralExpected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Expected integer literal.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_InvalidIntegerLiteral" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_InvalidIntegerLiteral">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The specified odata query has invalid integer literal '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_InvalidRealLiteral" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_InvalidRealLiteral">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The specified odata query has invalid real literal '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_InvalidTypeCreation" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_InvalidTypeCreation">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The specified odata query has invalid '{0}' type creation expression.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_OpenParenExpected" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_OpenParenExpected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>'(' expected.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_RealLiteralExpected" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_RealLiteralExpected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Expected real literal.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_StringLiteralExpected" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_StringLiteralExpected">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Expected string literal.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_SubstringArgsCount" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_SubstringArgsCount">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Function 'substring' requires 2 or 3 parameters.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_SyntaxError" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_SyntaxError">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The specified odata query has syntax errors.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ODataExpressionParser_UnterminatedStringLiteral" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/ODataExpressionParser_UnterminatedStringLiteral">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The specified odata query has unterminated string literal.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Platform_AssemblyNotFound" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/Platform_AssemblyNotFound">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>A Microsoft Azure Mobile Services assembly for the current platform was not found. Ensure that the current project references both {0} and the following platform-specific assembly: {1}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Platform_InstantiationFailed" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/Platform_InstantiationFailed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Failed to instantiate the platform implementation of {0} from the assembly {1} due to the following error: {2}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Pull_Cannot_Use_Reserved_Key" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/Pull_Cannot_Use_Reserved_Key">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The key '{0}' is reserved and cannot be specified as a query parameter.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Push_BodyTemplateMustBeXml" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/Push_BodyTemplateMustBeXml">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Valid XML is required for any template without a raw header.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Push_BodyTemplateMustContainElement" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/Push_BodyTemplateMustContainElement">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>XML must contain an XML node of Element type.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Push_ConflictWithReservedName" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/Push_ConflictWithReservedName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Template name conflicts with reserved name '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Push_Failure" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/Push_Failure">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Push operation has failed. See the PushResult for details.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Push_InvalidTemplateName" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/Push_InvalidTemplateName">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Template name cannot contain ";" or ":".</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Push_NotSupportedXMLFormatAsBodyTemplateWin8" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/Push_NotSupportedXMLFormatAsBodyTemplateWin8">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The bodyTemplate is not in accepted XML format. The first node of the bodyTemplate should be Badge/Tile/Toast, except for the wns/raw template, which needs to be an valid XML.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Push_TagNoCommas" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/Push_TagNoCommas">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Tags must not contain ','.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncContext_DeletePending" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncContext_DeletePending">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>A delete operation on the item is already in the queue.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncContext_DuplicateInsert" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncContext_DuplicateInsert">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>An insert operation on the item is already in the queue.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncContext_InsertAttempted" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncContext_InsertAttempted">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The item is in inconsistent state in the local store. Please complete the pending sync by calling PushAsync()before deleting the item.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncContext_NotInitialized" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncContext_NotInitialized">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>SyncContext is not yet initialized.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncContext_PurgeOnDirtyTable" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncContext_PurgeOnDirtyTable">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The table cannot be purged because it has pending operations.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncContext_UpdatePending" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncContext_UpdatePending">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>An update operation on the item is already in the queue.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncError_OperationUpdated" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncError_OperationUpdated">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The operation has been updated and cannot be cancelled.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncStore_AlreadyInitialized" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncStore_AlreadyInitialized">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The store is already initialized.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncStore_FailedToDeleteError" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncStore_FailedToDeleteError">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Failed to delete error from the local store.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncStore_FailedToDeleteOperation" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncStore_FailedToDeleteOperation">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Failed to delete operation from the local store.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncStore_FailedToLoadError" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncStore_FailedToLoadError">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Failed to read errors from the local store.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncStore_FailedToReadItem" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncStore_FailedToReadItem">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Failed to read the item from local store.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncStore_FailedToUpdateOperation" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncStore_FailedToUpdateOperation">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Failed to update operation in the local store.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncStore_FailedToUpsertItem" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncStore_FailedToUpsertItem">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Failed to update the item in the local store.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncStore_NotInitialized" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncStore_NotInitialized">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>The store must be initialized before it can be used.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SyncStore_OperationFailed" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/SyncStore_OperationFailed">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Failed to perform operation on local store.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WP8LoginPage_MustBeCalledFromAuthBroker" uri="ms-resource://59801HistoryAppTeam.s00129359/Microsoft.WindowsAzure.MobileServices.Resources/WP8LoginPage_MustBeCalledFromAuthBroker">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>This page must be called from the type '{0}'.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -27,7 +27,6 @@ namespace S00129359
     /// </summary>
     public sealed partial class BlankPage1 : Page
     {
-        private MobileServiceCollection<User, User> items;
         private IMobileServiceTable<User> userTbl = App.MobileService.GetTable<User>();
 
         string passwrd;

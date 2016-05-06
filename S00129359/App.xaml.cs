@@ -16,7 +16,12 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 
+
 using Microsoft.WindowsAzure.MobileServices;
+
+//using Microsoft.Phone.Notification;
+using Microsoft.WindowsAzure.Messaging;
+using Microsoft.ApplicationInsights;
 
 // The Blank Application template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
 
@@ -27,6 +32,11 @@ namespace S00129359
     /// </summary>
     public sealed partial class App : Application
     {
+        /// <summary>
+        /// Allows tracking page views, exceptions and other telemetry through the Microsoft Application Insights service.
+        /// </summary>
+        public static TelemetryClient TelemetryClient;
+
         // Use this constructor instead after publishing to the cloud
         public static MobileServiceClient MobileService = new MobileServiceClient(
             "https://buseireann.azure-mobile.net/",
@@ -41,6 +51,8 @@ namespace S00129359
         /// </summary>
         public App()
         {
+            TelemetryClient = new TelemetryClient();
+
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
         }

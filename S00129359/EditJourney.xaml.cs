@@ -25,6 +25,7 @@ namespace S00129359
     public sealed partial class EditJourney : Page
     {
         int journeyid;
+        int routeId;
         private IMobileServiceTable<Journey> journeyTbl = App.MobileService.GetTable<Journey>();
 
         public EditJourney()
@@ -39,8 +40,12 @@ namespace S00129359
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            string param = e.Parameter as string;
-            journeyid = Convert.ToInt32(param);
+            Params prm = e.Parameter as Params;
+            if (prm != null)
+            {
+                routeId = prm.routeId;
+                journeyid = prm.JourneyId;
+            }
 
             JourneyDetails();
         }
@@ -53,8 +58,13 @@ namespace S00129359
 
             foreach (var journeyDetail in journey)
             {
-                tbArrive.Text = journeyDetail.ArrivalTime;
-                tbDeaprt.Text = journeyDetail.DepartureTime;
+                string dpt = journeyDetail.DepartureTime;
+                string arv = journeyDetail.ArrivalTime;
+                DateTime departTime = DateTime.Parse(dpt);
+                DateTime arriveTime = DateTime.Parse(arv);
+                
+                tbArrive.Time = arriveTime.TimeOfDay;
+                tbDeaprt.Time = departTime.TimeOfDay;
 
                 //check the box for each day the service runs on
                 if (journeyDetail.Monday == true)
@@ -90,7 +100,9 @@ namespace S00129359
 
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(EditRoute));
+            Params prm = new Params { routeId = routeId };
+
+            Frame.Navigate(typeof(EditRoute), prm);
         }
 
         private void HyperlinkButton_Click_1(object sender, RoutedEventArgs e)
@@ -107,8 +119,9 @@ namespace S00129359
             var tickEdit = ticket.FirstOrDefault();
             if (tickEdit != null)
             {
-                tickEdit.ArrivalTime = tbArrive.Text;
-                tickEdit.DepartureTime = tbDeaprt.Text;
+                tickEdit.ArrivalTime = DateTime.Parse(tbArrive.Time.ToString()).ToString("HH:mm");
+                tickEdit.DepartureTime = DateTime.Parse(tbDeaprt.Time.ToString()).ToString("HH:mm");
+                
 
                 if (cbxMonday.IsChecked == true)
                 {

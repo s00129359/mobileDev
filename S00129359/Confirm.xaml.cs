@@ -37,6 +37,7 @@ namespace S00129359
         public string Depart;
         public string Arrive;
         public int Cost;
+        public int credits;
 
         string sendParam;
 
@@ -72,9 +73,25 @@ namespace S00129359
                 .Where(id => id.UserId == UserLoggedIn)
                 .ToListAsync();
 
+
             foreach (var cred in customer)
             {
-                credsRemaining.Text += cred.Credits;
+                credits = cred.Credits;
+
+            }
+            //write to text bloxk how many credits in user account
+            credsRemaining.Text += credits;
+
+            //if user has enough credits
+            //user has less crediits than cost
+            if (credits < Cost)
+            {
+                tBxEnoughCredits.Text = "Not enough credits";
+                btnConfirm.IsEnabled = false;
+            }
+            else if (credits > Cost)
+            {
+                tBxEnoughCredits.Text = "You can purchase";
             }
         }
 
@@ -161,16 +178,18 @@ namespace S00129359
 
             var use = userCreds.FirstOrDefault();
 
-            if (use != null)
-            {
                 use.Credits -= Cost;
                 await userTbl.UpdateAsync(use);
 
-            }
 
             //navigate with send param
             Frame.Navigate(typeof(ViewTicket), sendParam);
 
+        }
+
+        private void HyperlinkButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
         }
     }
 }

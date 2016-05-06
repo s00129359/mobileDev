@@ -7,6 +7,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,7 +26,8 @@ namespace S00129359
     public sealed partial class Profile : Page
     {
         //user logged in
-        public int UserLoggedIn = 1;
+        //shoudld be saved in isolated storage when user logs in
+        public int UserLoggedIn;
         //user
         private IMobileServiceTable<User> userTbl = App.MobileService.GetTable<User>();
         //ticket
@@ -45,15 +47,34 @@ namespace S00129359
         /// This parameter is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            //tbxemail.Text = "Cormac@Hotmail.com";
-            //tbxName.Text = "Cormac";
-            //tbxSurName.Text = "Hallinan";
-            //lstRoutes.Items.Add("1. IT Sligo to Grange");
-            //lstRoutes.Items.Add("1. IT Sligo to Bus Station");
-            getUserDetails();
-            loadTickets();
+            getUserId();
         }
 
+        private async void getUserId()
+        {
+            int cID = 1;
+            // get id of customer stored in iso storage
+            StorageFolder storeFolder =
+                Windows.Storage.ApplicationData.Current.LocalFolder;
+
+            //write to storage
+            //this should be done on log in or 
+            //register page and stored so it
+            //keeps a user logged in on their phone
+            StorageFile dataFile =
+                await storeFolder.CreateFileAsync("CustomerId.txt", CreationCollisionOption.ReplaceExisting);
+            await Windows.Storage.FileIO.WriteTextAsync(dataFile, cID.ToString());
+
+            //read from storage
+            StorageFile readFile =
+                await storeFolder.GetFileAsync("CustomerId.txt");
+            string custIdStr = await Windows.Storage.FileIO.ReadTextAsync(readFile);
+            UserLoggedIn = Convert.ToInt32(custIdStr);
+
+            getUserDetails();
+            loadTickets();
+
+        }
 
         private async void getUserDetails()
         {
@@ -65,6 +86,7 @@ namespace S00129359
                 tbxemail.Text = usr.Email;
                 tbxName.Text = usr.FirstName;
                 tbxSurName.Text = usr.SeondName;
+                tbCreds.Text += usr.Credits.ToString();
             }
 
         }

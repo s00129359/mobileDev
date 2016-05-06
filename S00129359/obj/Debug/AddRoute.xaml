@@ -40,7 +40,7 @@
 
         <TextBlock Grid.Column="1" Grid.Row="1" Foreground="Black" VerticalAlignment="Center" FontSize="33.333" FontWeight="Bold">Departs</TextBlock>
         <TextBox Grid.Column="2" Grid.Row="1" Name="tbDepart"></TextBox>
-
+        
         <TextBlock Grid.Column="1" Grid.Row="2" Foreground="Black" VerticalAlignment="Center" FontSize="33.333" FontWeight="Bold">Arrives</TextBlock>
         <TextBox Grid.Column="2" Grid.Row="2" Name="tbArrive"></TextBox>
 
@@ -49,23 +49,26 @@
 
 
         <TextBlock Grid.Column="1" Grid.Row="5" Foreground="Black" VerticalAlignment="Center" FontSize="27" FontWeight="Bold">Depart Time</TextBlock>
-        <TextBox Grid.Column="2" Grid.Row="5" Name="tbDepartTime"></TextBox>
+        <!--<TextBox Grid.Column="2" Grid.Row="5" Name="tbDepartTime"></TextBox>-->
+        <TimePicker Grid.Column="2" Grid.Row="5" Name="tbDepartTime" Foreground="Black"></TimePicker>
 
         <TextBlock Grid.Column="1" Grid.Row="6" Foreground="Black" VerticalAlignment="Center" FontSize="27" FontWeight="Bold">Arrive Time</TextBlock>
-        <TextBox Grid.Column="2" Grid.Row="6" Name="tbArriveTime"></TextBox>
+        <!--<TextBox Grid.Column="2" Grid.Row="6" Name="tbArriveTime"></TextBox>-->
+        <TimePicker Grid.Column="2" Grid.Row="6" Name="tbArriveTime" Foreground="Black"></TimePicker>
+
 
         <TextBlock Grid.Column="1" Grid.Row="7" Foreground="Black" VerticalAlignment="Center" FontSize="27" FontWeight="Bold">Bus No.</TextBlock>
         <TextBox Grid.Column="2" Grid.Row="7" Name="tbBusNo"></TextBox>
 
-        <CheckBox Name="cbxMonday" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Row="9" FontSize="27" Background="#FFB6B6B6" Foreground="#FFF31717" BorderBrush="Black">Monday</CheckBox>
-        <CheckBox Name="cbxTuesday" Grid.Column="2" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Stretch" Background="#FFB6B6B6" Foreground="#FFF31717" BorderBrush="Black">Tuesday</CheckBox>
+        <CheckBox BorderBrush="Black" Name="cbxMonday" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Row="9" FontSize="27" Foreground="#FFF31717">Monday</CheckBox>
+        <CheckBox Name="cbxTuesday" Grid.Column="2" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Stretch" Foreground="#FFF31717" BorderBrush="Black">Tuesday</CheckBox>
 
-        <CheckBox Name="cbxWednesday" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Row="10" FontSize="27" Background="#FFB6B6B6" Foreground="#FFF31717" BorderBrush="Black">Wednesday</CheckBox>
-        <CheckBox Name="cbxThursday" Grid.Column="2" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Stretch" Foreground="#FFF31717" BorderBrush="Black" Background="#FFB6B6B6">Thursday</CheckBox>
+        <CheckBox Name="cbxWednesday" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Row="10" FontSize="27" Foreground="#FFF31717" BorderBrush="Black">Wednesday</CheckBox>
+        <CheckBox Name="cbxThursday" Grid.Column="2" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Stretch" Foreground="#FFF31717" BorderBrush="Black">Thursday</CheckBox>
 
-        <CheckBox Name="cbxFriday" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Row="11" FontSize="27" Background="#FFB6B6B6" Foreground="#FFF31717" BorderBrush="Black">Friday</CheckBox>
-        <CheckBox Name="cbxSaturday" Grid.Column="2" Grid.Row="11" HorizontalAlignment="Center" VerticalAlignment="Stretch" Foreground="#FFF31717" BorderBrush="Black" Background="#FFB6B6B6">Satruday</CheckBox>
-        <CheckBox Name="cbxSunday" Grid.Column="1" Grid.Row="12" HorizontalAlignment="Center" VerticalAlignment="Stretch" Foreground="#FFF31717" BorderBrush="Black" Background="#FFB6B6B6">Sunday</CheckBox>
+        <CheckBox Name="cbxFriday" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch" Grid.Row="11" FontSize="27" Foreground="#FFF31717" BorderBrush="Black">Friday</CheckBox>
+        <CheckBox Name="cbxSaturday" Grid.Column="2" Grid.Row="11" HorizontalAlignment="Center" VerticalAlignment="Stretch" Foreground="#FFF31717" BorderBrush="Black">Satruday</CheckBox>
+        <CheckBox Name="cbxSunday" Grid.Column="1" Grid.Row="12" HorizontalAlignment="Center" VerticalAlignment="Stretch" Foreground="#FFF31717" BorderBrush="Black">Sunday</CheckBox>
 
         <HyperlinkButton x:ConnectionId='2' Grid.Row="13" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Background="#FF57BD10"                                >Submit</HyperlinkButton>
     </Grid>

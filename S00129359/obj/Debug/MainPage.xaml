@@ -33,22 +33,22 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <HyperlinkButton Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Content="Home"  Background="#FF5F9CF9"></HyperlinkButton>
-        <HyperlinkButton x:ConnectionId='1' Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" Content="Profile" Background="#FF307A77"                                ></HyperlinkButton>
-        <HyperlinkButton x:ConnectionId='2' Grid.Row="0" Grid.Column="3" HorizontalAlignment="Stretch" Content="Log Out" Background="#FFAB3BF9"                                ></HyperlinkButton>
+        <HyperlinkButton x:ConnectionId='1' Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Content="Home"  Background="#FF5F9CF9"                                ></HyperlinkButton>
+        <HyperlinkButton x:ConnectionId='2' Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" Content="Profile" Background="#FF307A77"                                ></HyperlinkButton>
+        <HyperlinkButton x:ConnectionId='3' Grid.Row="0" Grid.Column="3" HorizontalAlignment="Stretch" Content="Log Out" Background="#FFAB3BF9"                                ></HyperlinkButton>
 
         <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" x:Name="tbName" Text="Journey" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontSize="53.333" RequestedTheme="Dark" Foreground="#FF1D0DBB" FontWeight="Bold" FontFamily="Bodoni MT Black" />
-        <ComboBox x:ConnectionId='3' Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Name="cbxDepart" HorizontalAlignment="Stretch" VerticalAlignment="Center"                                               BorderBrush="Black" Foreground="Black"/>
+        <ComboBox x:ConnectionId='4' Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Name="cbxDepart" HorizontalAlignment="Stretch" VerticalAlignment="Center"                                               BorderBrush="Black" Foreground="Black"/>
 
         <TextBlock Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Text="On A" TextAlignment="Center" FontSize="53.333" VerticalAlignment="Center" RequestedTheme="Dark" Foreground="#FF1D0DBB" FontWeight="Bold" FontFamily="Bodoni MT Black"  />
         <ComboBox  Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" Name="cbxDepartDay" VerticalAlignment="Center" HorizontalAlignment="Stretch" BorderBrush="Black" Foreground="Black"/>
 
         <TextBlock  Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="3" Text="Ticket Type" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" FontSize="30" RequestedTheme="Dark" Foreground="#FF1D0DBB" FontWeight="Bold" FontFamily="Bodoni MT Black"></TextBlock>
-        <ComboBox x:ConnectionId='4'  Grid.Row="9" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" x:Name="cbxTicket" VerticalAlignment="Center" HorizontalAlignment="Stretch"                                               BorderBrush="Black" Foreground="Black"/>
+        <ComboBox x:ConnectionId='5'  Grid.Row="9" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" x:Name="cbxTicket" VerticalAlignment="Center" HorizontalAlignment="Stretch"                                               BorderBrush="Black" Foreground="Black"/>
 
         <ComboBox  Grid.Row="11" Grid.Column="1" Grid.ColumnSpan="3" Name="cbxReturnDate" VerticalAlignment="Center" HorizontalAlignment="Stretch" IsEnabled="False" BorderBrush="Black" Foreground="Black" />
 
-        <HyperlinkButton x:ConnectionId='5'  Grid.Row="13" Grid.Column="1" Grid.ColumnSpan="3" Background="#FF2AB800" Content="Submit" HorizontalAlignment="Stretch" VerticalAlignment="Center"                              />
+        <HyperlinkButton x:ConnectionId='6'  Grid.Row="13" Grid.Column="1" Grid.ColumnSpan="3" Background="#FF2AB800" Content="Submit" HorizontalAlignment="Stretch" VerticalAlignment="Center"                              />
 
     </Grid>
 

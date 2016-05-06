@@ -24,15 +24,15 @@
             <RowDefinition Height="3*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <HyperlinkButton Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Content="Home"  Background="#FF5F9CF9"></HyperlinkButton>
-        <HyperlinkButton x:ConnectionId='1' Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" Content="Profile" Background="#FF307A77"                                ></HyperlinkButton>
+        <HyperlinkButton x:ConnectionId='1' Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" Content="Home"  Background="#FF5F9CF9"                                ></HyperlinkButton>
+        <HyperlinkButton x:ConnectionId='2' Grid.Row="0" Grid.Column="2" HorizontalAlignment="Stretch" Content="Profile" Background="#FF307A77"                                ></HyperlinkButton>
         <HyperlinkButton Grid.Row="0" Grid.Column="3" HorizontalAlignment="Stretch" Content="Log Out" Background="#FFAB3BF9"></HyperlinkButton>
 
-        <HyperlinkButton x:ConnectionId='2' HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Background="#FFC46EF5"                              >Add Route</HyperlinkButton>
+        <HyperlinkButton x:ConnectionId='3' HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Background="#FFC46EF5"                              >Add Route</HyperlinkButton>
 
         <TextBlock Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF9E0202" FontSize="25" FontWeight="Bold">Choose a Route to Edit</TextBlock>
-        <ListBox x:ConnectionId='3' Name="lstRoutes" Grid.Column="1" Grid.Row="3"  Grid.ColumnSpan="3" FontSize="20"                                              ></ListBox>
-        <HyperlinkButton x:ConnectionId='4' Name="btnEdit" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" Background="#0040ff" IsEnabled="False"                                >Edit Route</HyperlinkButton>
+        <ListBox x:ConnectionId='4' Name="lstRoutes" Grid.Column="1" Grid.Row="3"  Grid.ColumnSpan="3" FontSize="25"                                              ></ListBox>
+        <HyperlinkButton x:ConnectionId='5' Name="btnEdit" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" Background="#FF309512" IsEnabled="False"                                >Edit Route</HyperlinkButton>
     </Grid>
 </Page>
 

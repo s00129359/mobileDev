@@ -49,7 +49,6 @@ namespace S00129359
         private void HyperlinkButton_Click_1(object sender, RoutedEventArgs e)
         {
             AddToRoute();
-            AddToJourney();
             Frame.Navigate(typeof(Admin));
         }
 
@@ -73,14 +72,12 @@ namespace S00129359
 
             nextId = 1 + highestId;
             //tbArrive.Text = nextId.ToString();
-
-            var addNewRoute = new Route() { Route_id = 11, Departs = tbDepart.Text, Arrives = tbArrive.Text  };
+            int cost = Convert.ToInt32(tbCost.Text);
+            var addNewRoute = new Route() { Route_id = nextId, Departs = tbDepart.ToString(), Arrives = tbArrive.Text, Cost = cost };
 
             await routeTbl.InsertAsync(addNewRoute);
-        }
 
-        private async void AddToJourney()
-        {
+            //add new journey
             bool monday = false;
             bool tuesday = false;
             bool wednesday = false;
@@ -107,10 +104,11 @@ namespace S00129359
             {
                 friday = true;
             }
-                                                                   //add first journey for the route. therfore id will be 1
-            var addNewJourney = new Journey() { Route_id = nextId, Journey_id = 1, DepartureTime = tbDepartTime.Text, ArrivalTime = tbArriveTime.Text, Monday = monday, Tuesday = tuesday, Wednesday = wednesday, Thursday = thursday, Friday = friday };
+            //add first journey for the route. therfore id will be 1
+            var addNewJourney = new Journey() { Route_id = nextId, Journey_id = 1, DepartureTime = DateTime.Parse(tbDepartTime.Time.ToString()).ToString("HH:mm"), ArrivalTime = DateTime.Parse(tbArriveTime.Time.ToString()).ToString("HH:mm"), Monday = monday, Tuesday = tuesday, Wednesday = wednesday, Thursday = thursday, Friday = friday };
 
             await journeyTbl.InsertAsync(addNewJourney);
         }
+
     }
 }

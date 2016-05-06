@@ -38,7 +38,7 @@
         <HyperlinkButton Grid.Row="0" Grid.Column="3" HorizontalAlignment="Stretch" Content="Log Out" Background="#FFAB3BF9"></HyperlinkButton>
 
         <Grid Background="Black" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3"></Grid>
-        <TextBlock Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White" FontSize="35">Credits Remaining:</TextBlock>
+        <TextBlock Name="tbCreds"  Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="White" FontSize="35">Credits Remaining:</TextBlock>
 
         <TextBlock Grid.Row="4" VerticalAlignment="Center" Grid.Column="1" FontSize="20" Foreground="#FF060606" FontWeight="Bold">First Name</TextBlock>
         <TextBox  Grid.Row="4" VerticalAlignment="Center" Grid.Column="2" Grid.ColumnSpan="2" FontSize="20" Foreground="#FF060606" FontWeight="Bold" Name="tbxName"></TextBox>
@@ -53,7 +53,7 @@
         <Button Grid.Row="8" VerticalAlignment="Center" HorizontalAlignment="Stretch" Grid.Column="1" Grid.ColumnSpan="3" Background="#FFD33737" Click="Button_Click">Edit</Button>
 
         <TextBlock Grid.Row="10" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Grid.ColumnSpan="3" Foreground="Black" FontSize="30" FontWeight="Bold">Click a Ticket to View</TextBlock>
-        <ListBox Name="lstRoutes" Grid.Column="1" Grid.Row="11" Grid.ColumnSpan="4" Grid.RowSpan="3" Margin="1.833,0,21,53"></ListBox>
+        <ListBox FontSize="25" Name="lstRoutes" Grid.Column="1" Grid.Row="11" Grid.ColumnSpan="4" Grid.RowSpan="3" Margin="1.833,0,21,53"></ListBox>
         <HyperlinkButton Grid.Row="13" Grid.Column="1" HorizontalAlignment="Stretch" Grid.ColumnSpan="3" Background="#FF158D09" Click="HyperlinkButton_Click">GO</HyperlinkButton>
     </Grid>
 
